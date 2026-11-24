@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sobe uygulaması için yardım, sık sorulan sorular ve destek iletişimi.">
+<title>Sobe Yardım ve Destek / Help and Support</title>
+<style>
+:root { color-scheme: light dark; --bg:#fff; --surface:#f5f4f0; --ink:#16234f; --muted:#4a5275; --blue:#153aba; --yellow:#f5d76e; --line:#e4e1d8; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --surface:#1b1e25; --ink:#f2efe6; --muted:#b8bcc6; --blue:#8ea6ff; --line:#30353f; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+main { max-width:760px; margin:auto; padding:24px 20px 64px; }
+.brand { display:flex; align-items:center; gap:12px; font-size:28px; font-weight:800; letter-spacing:-.04em; }
+.mark { width:42px; height:42px; flex:none; color:var(--blue); }
+nav { display:flex; flex-wrap:wrap; gap:14px; margin:18px 0 28px; font-size:14px; }
+nav a, a { color:var(--blue); }
+h1 { font-size:clamp(28px,6vw,38px); line-height:1.2; margin:0 0 8px; }
+h2 { font-size:23px; margin:36px 0 12px; }
+h3 { font-size:17px; margin:0 0 6px; }
+p { margin:0 0 14px; }
+.lead { color:var(--muted); font-size:18px; }
+.contact { background:var(--surface); border-radius:18px; padding:20px; margin:24px 0; }
+.contact a { overflow-wrap:anywhere; font-weight:700; }
+.faq { display:grid; gap:12px; }
+.faq article { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:18px; }
+.faq article p { margin:0; }
+hr { border:0; border-top:1px solid var(--line); margin:48px 0; }
+@media (max-width:480px) { main { padding:20px 16px 48px; } .faq article { padding:16px; } }
+</style>
+</head>
+<body>
+<main>
+<div class="brand"><svg class="mark" viewBox="0 0 100 100" role="img" aria-label="Sobe"><path d="M46.5 74 H39 A33 33 0 0 1 6 41 V37.7 A23 23 0 0 1 29 14.7 H64 A21 21 0 0 1 85 35.7 V47" fill="none" stroke="currentColor" stroke-width="9.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="41.2" y="1" width="8.8" height="12" rx="3" fill="currentColor"/><circle cx="30.8" cy="41.2" r="7.3" fill="currentColor"/><circle cx="60.2" cy="41.2" r="7.3" fill="currentColor"/><path d="M78.8 60 Q84.6 73.6 98.2 79.4 Q84.6 85.2 78.8 98.8 Q73 85.2 59.4 79.4 Q73 73.6 78.8 60 Z" fill="#f5d76e"/></svg>Sobe</div>
+<nav><a href="#tr">Türkçe</a><a href="#en">English</a><a href="privacy.html">Gizlilik / Privacy</a><a href="delete-account.html">Hesap silme / Delete account</a></nav>
+<section id="tr" lang="tr">
+<h1>Yardım ve destek</h1>
+<p class="lead">Gününü planlarken takıldığın yerde buradayız.</p>
+<div class="contact"><h2>Bizimle iletişime geç</h2><p>Sorunu ve kullandığın cihazı kısaca yaz. Şifreni veya erişim anahtarlarını gönderme.</p><a href="mailto:helllosobe@gmail.com?subject=Sobe%20destek">helllosobe@gmail.com</a></div>
+<h2>Sık sorulan sorular</h2>
+<div class="faq">
+<article><h3>Görev ve günlük plan nasıl oluşturulur?</h3><p>Plan sekmesindeki + düğmesiyle görev adını, günü, başlangıç saatini ve süreyi seç. Saatini henüz bilmiyorsan Bekleyenler'e ekleyebilirsin. Görevlerini Plan ekranından düzenleyebilir veya silebilirsin.</p></article>
+<article><h3>Günü Kurtar ne yapar?</h3><p>Saati geçen ya da yetişmeyen görevler için yeni saatler önerir. Önizlemede değişiklikleri görürsün; Planı Uygula'ya basmadan görevlerin değişmez.</p></article>
+<article><h3>Sobe yapay zekâ ile hangi bilgileri paylaşır?</h3><p>İzin verirsen mesajın, ilgili görevlerin, yakın sohbet geçmişin, uyanış ve uyku saatlerin ile plan bağlamı Anthropic (Claude) hizmetine yanıt hazırlamak için gönderilir. İlk AI kullanımından önce izin sorulur; Profil'den geri çekebilirsin. İzin vermesen de görevlerini ve Günü Kurtar'ı kullanabilirsin.</p></article>
+<article><h3>Hesabımı nasıl silerim?</h3><p>Uygulamada Profil → Hesabı sil adımını kullan. Uygulamaya giremiyorsan <a href="delete-account.html">hesap silme sayfasındaki</a> yolu izle.</p></article>
+<article><h3>Gizlilik politikasını nerede bulabilirim?</h3><p><a href="privacy.html">Gizlilik politikası</a> uygulamada da Profil → Gizlilik altında bulunur.</p></article>
+</div>
+</section>
+<hr>
+<section id="en" lang="en">
+<h1>Help and support</h1>
+<p class="lead">We’re here if you need help planning your day.</p>
+<div class="contact"><h2>Contact us</h2><p>Briefly describe the issue and your device. Do not send passwords or access keys.</p><a href="mailto:helllosobe@gmail.com?subject=Sobe%20support">helllosobe@gmail.com</a></div>
+<h2>Frequently asked questions</h2>
+<div class="faq">
+<article><h3>How do I add tasks and plan my day?</h3><p>Use the + button in Plan to choose a title, date, start time and duration. If you do not know the time yet, add it to Waiting. You can edit or delete tasks from Plan.</p></article>
+<article><h3>What does Save the Day do?</h3><p>It suggests new times for missed or at-risk tasks. You can review changes first; tasks stay as they are until you tap Apply to plan.</p></article>
+<article><h3>What does Sobe share with AI?</h3><p>With your permission, your message, relevant tasks, recent chat, wake and sleep times, and planning context are sent to Anthropic (Claude) to prepare a reply. Sobe asks before the first AI request. You can withdraw permission in Profile. Manual tasks and Save the Day remain available without it.</p></article>
+<article><h3>How do I delete my account?</h3><p>In the app, go to Profile → Delete account. If you cannot sign in, follow the steps on the <a href="delete-account.html">account deletion page</a>.</p></article>
+<article><h3>Where is the privacy policy?</h3><p>Read the <a href="privacy.html">privacy policy</a> here or in Profile → Privacy in the app.</p></article>
+</div>
+</section>
+</main>
+</body>
+</html>
